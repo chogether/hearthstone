@@ -3,40 +3,1280 @@
 <head>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="https://chogether.github.io/hearthstone/css/semantic.min.css">
+    <link rel="stylesheet" type="text/css" href="/hearthstone/css/doc.css">
+    <style type="text/css">
+        .ui.card>.image, .ui.cards>.card>.image {padding: 0.5em;}
+        #example .main.container .examples > h3, #example .main.container > h3, #example .main.container > .tab > h3 {margin-bottom: 0.5em;}
+        #example .example { margin: 0.5em 0; padding: 0.5em 0; }
+    </style>
 </head>
-<body>
+<body id="example" class="segment">
 
-<table class="ui sortable celled table">
-    <thead>
-    <tr>
-        <th>Name</th>
-        <th>Status</th>
-        <th>Notes</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr>
-        <td>John</td>
-        <td>No Action</td>
-        <td>None</td>
-    </tr>
-    <tr>
-        <td>Jamie</td>
-        <td class="positive">Approved</td>
-        <td class="warning">Requires call</td>
-    </tr>
-    <tr>
-        <td>Jill</td>
-        <td class="negative">Denied</td>
-        <td>None</td>
-    </tr>
-    </tbody>
-    <tfoot>
-    <tr><th>3 People</th>
-        <th>2 Approved</th>
-        <th></th>
-    </tr></tfoot>
-</table>
+<div class="main ui container">
+
+    <div class="ui floating message">
+        <p>채용률과 승률은 <a href="https://hsreplay.net/cards/">https://hsreplay.net/cards/</a>를 참조하였습니다. (4/28 기준)</p>
+        <p>평가가 맞는지 틀린지에 대한 기준은 채용률과 승률이며 현 메타에 대한 약간의 뇌피셜이 첨가되어 있습니다.</p>
+    </div>
+
+    <div class="ui dividing right rail">
+        <div class="ui sticky fixed top"
+             style="width: 266.5px !important; height: 809px !important; margin-top: 30px; left: 1073px; top: 0px;"><h4
+                class="ui header">바로가기</h4>
+            <div class="ui vertical following fluid accordion text menu">
+                <div class="content menu active">
+                    <a class="item" href="#rogue">도적</a>
+                    <a class="item" href="#priest">사제</a>
+                    <a class="item" href="#paladin">성기사</a>
+                    <a class="item" href="#hunter">냥꾸니</a>
+                    <a class="item" href="#mage">마법사</a>
+                    <a class="item" href="#warlock">흑마법사</a>
+                    <a class="item" href="#warrior">전사</a>
+                    <a class="item" href="#druid">드루이드</a>
+                    <a class="item" href="#shaman">주술사</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <h3 class="ui dividing header">
+        <a class="anchor" id="rogue"></a>
+        <img class="ui medium image" src="/hearthstone/images/rogue.png">
+        <span>도적</span>
+    </h3>
+    <p>초승달의 1픽 도적</p>
+
+    <div class="example">
+        <div class="ui four cards visible">
+            <div class="ui card visible">
+                <div class="image">
+                    <img src="https://assets.webn.mobi/hearthstone/22c96f08b036873c6236cc31857d7574b8109d252eb1fc22d75c5d09152b3ff4.png">
+                </div>
+                <div class="content">
+                    <div class="header">비열한 습격</div>
+                    <div class="description">
+                        잔상 알아요 저~<br>
+                        잔상이 뭐여 근데?<br>
+                        아~ 여러번 내는거~<br>
+                        나쁘지 않은 것 같은데...<br>
+                        음....코스트가 너무 비싸.<br>
+                        구데기.
+                    </div>
+                </div>
+                <div class="extra content">
+                    채용률 : 5.3%<br>
+                    승 률 : 40.8%
+                </div>
+                <div class="ui bottom attached positive message">
+                    정답
+                </div>
+            </div>
+
+            <div class="ui card visible">
+                <div class="image">
+                    <img src="https://assets.webn.mobi/hearthstone/f9322c6ed988c72b2b919b3a1055159cdc32aacd61d422b5ca44931cf872c7ed.png">
+                </div>
+                <div class="content">
+                    <div class="header">훔치기</div>
+                    <div class="description">
+                        나쁘지 않네요.<br>
+                        특정 직업 상대에 한해서 좋을 수도?<br>
+                        제 스타일은 아니에요.
+                    </div>
+                </div>
+                <div class="extra content">
+                    채용률 : 10.7%<br>
+                    승 률 : 41.1%
+                </div>
+                <div class="ui bottom attached positive message">
+                    정답
+                </div>
+            </div>
+
+            <div class="ui card visible">
+                <div class="image">
+                    <img src="https://assets.webn.mobi/hearthstone/5efc730b3e2f249df60e4d678afa28c70cffb888fb118acf57b6f533bb3185a2.png">
+                </div>
+                <div class="content">
+                    <div class="header">안개망령</div>
+                    <div class="description">
+                        짝짝짝짝<br>
+                        이건 대게 좋네요.<br>
+                        그리고 멋있게 생겼다.<br>
+                    </div>
+                </div>
+                <div class="extra content">
+                    채용률 : 1.9%<br>
+                    승 률 : 38.3%
+                </div>
+                <div class="ui bottom attached negative message">
+                    땡
+                </div>
+            </div>
+
+            <div class="ui card visible">
+                <div class="image">
+                    <img src="https://assets.webn.mobi/hearthstone/f3115cca58c7b9001abe7959eb24ff82b7a0db7592aacf82a438d8131a9b1213.png">
+                </div>
+                <div class="content">
+                    <div class="header">광주 이씨 문숙공</div>
+                    <div class="description">
+                        일단 카드 주인공 좀 예쁨!<br>
+                        <span style="color:red;">숙공!</span> 숙공이 먼디?<br>
+                        6코에 5/3...저는 산악거인처럼 피뻥!이 좋아요.<br>
+                        코스트가 높아서 꼬쟜음.
+                    </div>
+                </div>
+                <div class="extra content">
+                    채용률 : 4.7%<br>
+                    승 률 : 45.2%
+                </div>
+                <div class="ui bottom attached positive message">
+                    정답
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="ui four cards visible">
+            <div class="ui card visible">
+                <div class="image">
+                    <img src="https://assets.webn.mobi/hearthstone/dddda8e133421980a7b0dfcf812571ec6c4f393c013cca470bf8f998dbc6126f.png">
+                </div>
+                <div class="content">
+                    <div class="header">유령의 커틀라스</div>
+                    <div class="description">
+                        대게 멋있는 카드같구만~<br>
+                        왕파가 있기 때문에 쓸일이 없을 것 같다.<br>
+                        도적이 도적카드를 써야지..잘 못 나온 카드다.
+                    </div>
+                </div>
+                <div class="extra content">
+                    채용률 : 4.6%<br>
+                    승 률 : 40.1%
+                </div>
+                <div class="ui bottom attached positive message">
+                    정답
+                </div>
+            </div>
+
+            <div class="ui card visible">
+                <div class="image">
+                    <img src="https://assets.webn.mobi/hearthstone/8b8c850b1c2434e5b8ef82e377fed6c353c4c69d8af2ce7c9df769c892ad839a.png">
+                </div>
+                <div class="content">
+                    <div class="header">현상 수배!</div>
+                    <div class="description">
+                        피가 3인 애들이 거의 없다.<br>
+                        4코나 써서 저코 하수인 밖에 못짜른다.<br>
+                        짱짱 구데기.
+                    </div>
+                </div>
+                <div class="extra content">
+                    채용률 : 2.4%<br>
+                    승 률 : 42.2%
+                </div>
+                <div class="ui bottom attached positive message">
+                    정답
+                </div>
+            </div>
+
+            <div class="ui card visible">
+                <div class="image">
+                    <img src="https://assets.webn.mobi/hearthstone/25665470d7a6d2b3256b181c6412f00da66ff951ea48f50dc3bfdbfedd4e4101.png">
+                </div>
+                <div class="content">
+                    <div class="header">매생이 수집가</div>
+                    <div class="description">
+                        매생이 좋아하긴 하지만 내스타일 아니다.<br>
+                        그밟 등을 이용하여 활용 가능성이 높다.<br>
+                        나쁘지 않다.
+                    </div>
+                </div>
+                <div class="extra content">
+                    채용률 : 17.0%<br>
+                    승 률 : 46.4%
+                </div>
+                <div class="ui bottom attached negative message">
+                    땡
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <h3 class="ui dividing header">
+        <a class="anchor" id="priest"></a>
+        <img class="ui medium image" src="/hearthstone/images/priest.png">
+        <span>사제</span>
+    </h3>
+    <p>이뇨속. 뭘 또 사기치려고 나왔는지 봐야겠다.<br>사제는 카드가 안나와도 된다.<br>개사기다.</p>
+
+    <div class="example">
+        <div class="ui four cards visible">
+            <div class="ui card visible">
+                <div class="image">
+                    <img src="https://assets.webn.mobi/hearthstone/f7f2b5dccc01dad089099645178067e1202134e2e087732fe9918791c37370d5.png">
+                </div>
+                <div class="content">
+                    <div class="header">성수</div>
+                    <div class="description">
+                        용숨 있는데 굳이? 아 용숨 야생 가요?<br>
+                        그럼 써야지. 아니다.<br>
+                        코스트가 너무 비싸.<br>
+                        나는 쌈마이가 좋다.
+                    </div>
+                </div>
+                <div class="extra content">
+                    채용률 : 3.4%<br>
+                    승 률 : 40.4%
+                </div>
+                <div class="ui bottom attached positive message">
+                    정답
+                </div>
+            </div>
+
+            <div class="ui card visible">
+                <div class="image">
+                    <img src="https://assets.webn.mobi/hearthstone/d2d4dd3afb68291f00b05aeed7c3237a2f68e5e16d18bc39b0a65126c976b6a0.png">
+                </div>
+                <div class="content">
+                    <div class="header">관짝 파괴자</div>
+                    <div class="description">
+                        넘모 구데기<br>
+                        사제가 죽메??<br>
+                        스탯은 나쁘지 않지만 소환할 죽메가 없다.
+                    </div>
+                </div>
+                <div class="extra content">
+                    채용률 : 4.0%<br>
+                    승 률 : 44.5%
+                </div>
+                <div class="ui bottom attached positive message">
+                    정답
+                </div>
+            </div>
+
+            <div class="ui card visible">
+                <div class="image">
+                    <img src="https://assets.webn.mobi/hearthstone/d8bb7f2234bcac639c183e6eb2d69f2914ea534f163c681281917107ebdb9f70.png">
+                </div>
+                <div class="content">
+                    <div class="header">생생한 악몽</div>
+                    <div class="description">
+                        아 이건 좋네요.<br>
+                        왜냐면 사제는 고코 하수인이 많기 때문에<br>
+                        이걸로 부활 연계 등이 좋다.<br>
+                        근데 별로임 제 스타일 아님.
+                    </div>
+                </div>
+                <div class="extra content">
+                    채용률 : 6.5%<br>
+                    승 률 : 43.2%
+                </div>
+                <div class="ui bottom attached negative message">
+                    땡
+                </div>
+            </div>
+
+            <div class="ui card visible">
+                <div class="image">
+                    <img src="https://assets.webn.mobi/hearthstone/837d9bf5e44a3cac53dab005edd3c30e8501537b29ac5b662fd35e5b6f0ed99b.png">
+                </div>
+                <div class="content">
+                    <div class="header">아른거리는 나방</div>
+                    <div class="description">
+                        홀수덱? 맞추기 너무 어렵다.<br>
+                        나방이라는 이름부터 맘에 안들었다.
+                    </div>
+                </div>
+                <div class="extra content">
+                    채용률 : 1.8%<br>
+                    승 률 : 43.8%
+                </div>
+                <div class="ui bottom attached positive message">
+                    정답
+                </div>
+            </div>
+
+        </div>
+        <div class="ui four cards visible">
+            <div class="ui card visible">
+                <div class="image">
+                    <img src="https://assets.webn.mobi/hearthstone/2cd688dfee8e37ee08dc4d47f9b16c0804b2e5702d40ceba31de5cc53be8cd9f.png">
+                </div>
+                <div class="content">
+                    <div class="header">카멜레오스</div>
+                    <div class="description">
+                        이건 좋네. 개사기.<br>
+                        벤 브로드 브로가 카드 팔아 먹으려고 만들었네.<br>
+                        한 5개월 지나서 시들시들할 때 패치할듯.<br>
+                        초반에 빨리 꿀빠세요.
+                    </div>
+                </div>
+                <div class="extra content">
+                    채용률 : 28.4%<br>
+                    승 률 : 51.6%
+                </div>
+                <div class="ui bottom attached positive message">
+                    개사기는 아니지만<br>
+                    준수한 스탯
+                </div>
+            </div>
+
+            <div class="ui card visible">
+                <div class="image">
+                    <img src="https://assets.webn.mobi/hearthstone/f8a5736cfbc6776eb5fe6666af086fcf47cde697f9b6e2fea62e4213b7f8a588.png">
+                </div>
+                <div class="content">
+                    <div class="header">유령아씨</div>
+                    <div class="description">
+                        일단 내 스타일. 여캐는 진리.<br>
+                        내면의 열정이 머지?<br>
+                        호고곡! 매우 좋다.<br>
+                        종말이가 7/7 (?)
+                    </div>
+                </div>
+                <div class="extra content">
+                    채용률 : 26.7%<br>
+                    승 률 : 50.8%
+                </div>
+                <div class="ui bottom attached positive message">
+                    개사기는 아니지만<br>
+                    준수한 스탯
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <h3 class="ui dividing header">
+        <a class="anchor" id="paladin"></a>
+        <img class="ui medium image" src="/hearthstone/images/paladin.png">
+        <span>성기사</span>
+    </h3>
+    <p>기사는 그닥 그렇다...(현실은 갓티어)</p>
+
+    <div class="example">
+        <div class="ui four cards visible">
+            <div class="ui card visible">
+                <div class="image">
+                    <img src="https://assets.webn.mobi/hearthstone/2c86e99e05f04239796e6c5017a5f144301f020b14524459de9177a137f6efc5.png">
+                </div>
+                <div class="content">
+                    <div class="header">비난</div>
+                    <div class="description">
+                        상대 직업마다 다르긴 한데...<br>
+                        나쁘지 않은 듯
+                    </div>
+                </div>
+                <div class="extra content">
+                    채용률 : 2.2%<br>
+                    승 률 : 54.6%
+                </div>
+                <div class="ui bottom attached info message">
+                    애매
+                </div>
+            </div>
+
+            <div class="ui card visible">
+                <div class="image">
+                    <img src="https://assets.webn.mobi/hearthstone/c0e4987b584cd5c91818534f18f8c737241cc6a622f1e18c1dd102e5dc58f94f.png">
+                </div>
+                <div class="content">
+                    <div class="header">종을 울려라!</div>
+                    <div class="description">
+                        모두에게가 아니고 하나에게 1/2면...<br>
+                        음...그닥 그런디?<br>
+                        꾸짐
+                    </div>
+                </div>
+                <div class="extra content">
+                    채용률 : 5.3%<br>
+                    승 률 : 51.1%
+                </div>
+                <div class="ui bottom attached info message">
+                    애매
+                </div>
+            </div>
+
+            <div class="ui card visible">
+                <div class="image">
+                    <img src="https://assets.webn.mobi/hearthstone/3aff200b87bf9753c0cda6a6e64e40a6f30492af8c38306dc942e3070b0099cf.png">
+                </div>
+                <div class="content">
+                    <div class="header">종탑 보초병</div>
+                    <div class="description">
+                        성기사가 빠마~ 많이 말자나요?<br>
+                        대게 좋은거 같다.
+                    </div>
+                </div>
+                <div class="extra content">
+                    채용률 : 4.1%<br>
+                    승 률 : 57.3%
+                </div>
+                <div class="ui bottom attached info message">
+                    애매
+                </div>
+            </div>
+
+            <div class="ui card visible">
+                <div class="image">
+                    <img src="https://assets.webn.mobi/hearthstone/05e2203d060607cafcf7fb9b40587a704c348e75567cad597ace0f98689de9c3.png">
+                </div>
+                <div class="content">
+                    <div class="header">은장검</div>
+                    <div class="description">
+                        8코?<br>
+                        코스트 보는 순간 구데기 판명 끝
+                    </div>
+                </div>
+                <div class="extra content">
+                    채용률 : 24.5%<br>
+                    승 률 : 59.0%
+                </div>
+                <div class="ui bottom attached negative message">
+                    땡
+                </div>
+            </div>
+
+        </div>
+        <div class="ui four cards visible">
+            <div class="ui card visible">
+                <div class="image">
+                    <img src="https://assets.webn.mobi/hearthstone/200c2558eb00b6dfb9f74f686901b297576ad829362b14a3700c8b794c99c97b.png">
+                </div>
+                <div class="content">
+                    <div class="header">성당 가고일</div>
+                    <div class="description">
+                        성기사가 용을 안쓰자나요?<br>
+                        용기사가 있다구요?? 나는 모름<br>
+                        구데기
+                    </div>
+                </div>
+                <div class="extra content">
+                    채용률 : 0.6%<br>
+                    승 률 : 50.5%
+                </div>
+                <div class="ui bottom attached positive message">
+                    정답
+                </div>
+            </div>
+
+            <div class="ui card visible">
+                <div class="image">
+                    <img src="https://assets.webn.mobi/hearthstone/be837fb1b704ad69f25ee755caee6acae9d4ee20fd953bee9183db1132ff1069.png">
+                </div>
+                <div class="content">
+                    <div class="header">유리 기사</div>
+                    <div class="description">
+                        성기사 회복 카드가 별로 없는데?<br>
+                        천보는 좋지만....음..그닥?<br>
+                        별로
+                    </div>
+                </div>
+                <div class="extra content">
+                    채용률 : 10.6%<br>
+                    승 률 : 58.1%
+                </div>
+                <div class="ui bottom attached info message">
+                    애매
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <h3 class="ui dividing header">
+        <a class="anchor" id="hunter"></a>
+        <img class="ui medium image" src="/hearthstone/images/hunter.png">
+        <span>냥꾸니</span>
+    </h3>
+    <p>동물애호가의 선호 클래스</p>
+
+    <div class="example">
+        <div class="ui four cards visible">
+            <div class="ui card visible">
+                <div class="image">
+                    <img src="https://assets.webn.mobi/hearthstone/a4c6be5121be41e2a3e20a51e3df827f2f6c57e4af22bdd9fba2c75f6eb5be86.png">
+                </div>
+                <div class="content">
+                    <div class="header">사냥용 파수견</div>
+                    <div class="description">
+                        동물 애호가가 만든 카드가 아니다.<br>
+                        꾸짐
+                    </div>
+                </div>
+                <div class="extra content">
+                    채용률 : 5.2%<br>
+                    승 률 : 47.0%
+                </div>
+                <div class="ui bottom attached positive message">
+                    정답
+                </div>
+            </div>
+
+            <div class="ui card visible">
+                <div class="image">
+                    <img src="https://assets.webn.mobi/hearthstone/8b04ba2038ccbe189174cc99cb58f32db276a0c92ffbe8aed1851b298503acbf.png">
+                </div>
+                <div class="content">
+                    <div class="header">광포한 격노</div>
+                    <div class="description">
+                        이건 좋다.<br>
+                        냥꾸니의 뒷심을 올려준다.<br>
+                        드로우가 없다구요? 알아서 하세요.
+                    </div>
+                </div>
+                <div class="extra content">
+                    채용률 : 20.7%<br>
+                    승 률 : 47.2%
+                </div>
+                <div class="ui bottom attached warning message">
+                    땡
+                </div>
+            </div>
+
+            <div class="ui card visible">
+                <div class="image">
+                    <img src="https://assets.webn.mobi/hearthstone/76fc5f82faa4760268bf2b1a0c85e9395fde5ae962df23c5721f2d66a7a25c84.png">
+                </div>
+                <div class="content">
+                    <div class="header">어스름 안신척 사냥꾼</div>
+                    <div class="description">
+                        너무 이름이 길다.<br>
+                        어 안사.
+                    </div>
+                </div>
+                <div class="extra content">
+                    채용률 : 3.%<br>
+                    승 률 : 47.8%
+                </div>
+                <div class="ui bottom attached positive message">
+                    정답
+                </div>
+            </div>
+
+            <div class="ui card visible">
+                <div class="image">
+                    <img src="https://assets.webn.mobi/hearthstone/f6b5071d1206be089318f698cb2d6a52be4d66ebfc6089bb5090c4efca6a594c.png">
+                </div>
+                <div class="content">
+                    <div class="header">거친 날갯짓</div>
+                    <div class="description">
+                        (카드이해못함)꾸져.<br>
+                        (설명듣고) 설명이 너무 어렵다.<br>
+                        그럼 좋네.
+                    </div>
+                </div>
+                <div class="extra content">
+                    채용률 : 20.7%<br>
+                    승 률 : 49.8%
+                </div>
+                <div class="ui bottom attached positive message">
+                    정답
+                </div>
+            </div>
+
+        </div>
+        <div class="ui four cards visible">
+            <div class="ui card visible">
+                <div class="image">
+                    <img src="https://assets.webn.mobi/hearthstone/c0934c5cf16bba7de5096f802a789e4547fbd6a885338606ad606b684c074717.png">
+                </div>
+                <div class="content">
+                    <div class="header">쥐덫</div>
+                    <div class="description">
+                        카드를 안내면 어떡해?<br>
+                        후반에는 많이 내니깐 그떄는 좋을 것 같다.
+                    </div>
+                </div>
+                <div class="extra content">
+                    채용률 : 4.4%<br>
+                    승 률 : 53.3%
+                </div>
+                <div class="ui bottom attached info message">
+                    애매
+                </div>
+            </div>
+
+            <div class="ui card visible">
+                <div class="image">
+                    <img src="https://assets.webn.mobi/hearthstone/8db36cc0735ab4450a30b5f346adb1687f5080b97c7e30cb616dece512891d74.png">
+                </div>
+                <div class="content">
+                    <div class="header">독소 전문가</div>
+                    <div class="description">
+                        구데기<br>
+                        너무 코스트 비싸.
+                    </div>
+                </div>
+                <div class="extra content">
+                    채용률 : 5.0%<br>
+                    승 률 : 41.2%
+                </div>
+                <div class="ui bottom attached positive message">
+                    정답
+                </div>
+            </div>
+
+            <div class="ui card visible">
+                <div class="image">
+                    <img src="https://assets.webn.mobi/hearthstone/af31fa369aeafa41da0a28dbc941db48f6fbe94dd623ac3fce1dcadd23eb564c.png">
+                </div>
+                <div class="content">
+                    <div class="header">사냥개조련사 쇼</div>
+                    <div class="description">
+                        진짜 좋다.<br>
+                        그냥 던져도 나쁘지 않다.
+                    </div>
+                </div>
+                <div class="extra content">
+                    채용률 : 11.4%<br>
+                    승 률 : 47.5%
+                </div>
+                <div class="ui bottom attached negative message">
+                    땡
+                </div>
+            </div>
+
+            <div class="ui card visible">
+                <div class="image">
+                    <img src="https://assets.webn.mobi/hearthstone/ad16260fd575da993f2f8265905a0cb996848d6860dea7d28adbd1b4cec3367c.png">
+                </div>
+                <div class="content">
+                    <div class="header">에메리스</div>
+                    <div class="description">
+                        냥꾸니가 10코까지 갈 수가 없다.<br>
+                        가더라도 손에 카드가 없다.
+                    </div>
+                </div>
+                <div class="extra content">
+                    채용률 : 3.5%<br>
+                    승 률 : 43.2%
+                </div>
+                <div class="ui bottom attached positive message">
+                    정답
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <h3 class="ui dividing header">
+        <a class="anchor" id="mage"></a>
+        <img class="ui medium image" src="/hearthstone/images/mage.png">
+        <span>마법사</span>
+    </h3>
+    <p></p>
+
+    <div class="example">
+        <div class="ui four cards visible">
+            <div class="ui card visible">
+                <div class="image">
+                    <img src="https://assets.webn.mobi/hearthstone/f67b79a739f8072d545794f5470289d7e8a1ff031c00139a175a960f5b1761ea.png">
+                </div>
+                <div class="content">
+                    <div class="header">검은 고양이</div>
+                    <div class="description">
+                        너무 귀엽다!!<br>
+                        무조건 좋은 카드
+                    </div>
+                </div>
+                <div class="extra content">
+                    채용률 : 9.3%<br>
+                    승 률 : 50.4%
+                </div>
+                <div class="ui bottom attached info message">
+                    애매
+                </div>
+            </div>
+
+            <div class="ui card visible">
+                <div class="image">
+                    <img src="https://assets.webn.mobi/hearthstone/bb87f5d86d9db0027ac6d05af3213c69794ee4ad8cb320d6a1576d1514739e88.png">
+                </div>
+                <div class="content">
+                    <div class="header">성가신 까마귀</div>
+                    <div class="description">
+                        그닥 별로 안졸아 보인다.
+                    </div>
+                </div>
+                <div class="extra content">
+                    채용률 : 23.8%<br>
+                    승 률 : 53.8%
+                </div>
+                <div class="ui bottom attached warning message">
+                    땡
+                </div>
+            </div>
+
+            <div class="ui card visible">
+                <div class="image">
+                    <img src="https://assets.webn.mobi/hearthstone/21ae3399c8eefe1db58293b7ca598ebff8ac7c69b42f91ce0b3e78ddc5ca13ce.png">
+                </div>
+                <div class="content">
+                    <div class="header">시간땜장이 토키</div>
+                    <div class="description">
+                        과거가 언젠디?<br>
+                        밑져아 본전인듯.<br>
+                        스트리머라면 꼭 써야 한다.
+                    </div>
+                </div>
+                <div class="extra content">
+                    채용률 : 16.0%<br>
+                    승 률 : 49.8%
+                </div>
+                <div class="ui bottom attached positive message">
+                    나름 정답
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <h3 class="ui dividing header">
+        <a class="anchor" id="warlock"></a>
+        <img class="ui medium image" src="/hearthstone/images/warlock.png">
+        <span>흑마법사</span>
+    </h3>
+    <p>이미 너무 사기다.</p>
+
+    <div class="example">
+        <div class="ui four cards visible">
+            <div class="ui card visible">
+                <div class="image">
+                    <img src="https://assets.webn.mobi/hearthstone/7258ca9929af8ad066accab4da4a207e58425f950f11639220a684fda6bd77f2.png">
+                </div>
+                <div class="content">
+                    <div class="header">그늘박쥐</div>
+                    <div class="description">
+                        나쁘지 않은 것 같기도 하고...<br>
+                        사실상 5코 카드라 별로인듯.
+                    </div>
+                </div>
+                <div class="extra content">
+                    채용률 : 7.4%<br>
+                    승 률 : 54.4%
+                </div>
+                <div class="ui bottom attached info message">
+                    애매
+                </div>
+            </div>
+
+            <div class="ui card visible">
+                <div class="image">
+                    <img src="https://assets.webn.mobi/hearthstone/5fe0b3549c7b0b1312e61b8470ff89543623729599b5e70547eddd7d78c2ac6e.png">
+                </div>
+                <div class="content">
+                    <div class="header">피의 마녀</div>
+                    <div class="description">
+                        걍 귀엽다.<br>
+                        나쁘지는 않은 것 같은데..<br>
+                        피 까지는게 부담스럽다. 별로.
+                    </div>
+                </div>
+                <div class="extra content">
+                    채용률 : 0.7%<br>
+                    승 률 : 45.2%
+                </div>
+                <div class="ui bottom attached positive message">
+                    정답
+                </div>
+            </div>
+
+            <div class="ui card visible">
+                <div class="image">
+                    <img src="https://assets.webn.mobi/hearthstone/6823e5af55b9e25b5adbf2c08411a4b48677a6cab96517ad9a0df23902c0f0ea.png">
+                </div>
+                <div class="content">
+                    <div class="header">죽음그물 거미</div>
+                    <div class="description">
+                        좋은 것 같다.<br>
+                        피를 까는 흑마라서 피흡이 좋다.
+                    </div>
+                </div>
+                <div class="extra content">
+                    채용률 : 0.7%<br>
+                    승 률 : 46.2%
+                </div>
+                <div class="ui bottom attached negative message">
+                    땡
+                </div>
+            </div>
+
+            <div class="ui card visible">
+                <div class="image">
+                    <img src="https://assets.webn.mobi/hearthstone/16dfdcb1dbe551dde1dce281da207d0f2d8f07c57c2982cb55018651b1e04818.png">
+                </div>
+                <div class="content">
+                    <div class="header">글린다 크로우스킨</div>
+                    <div class="description">
+                        흑마가 잔상 얻으면 좋을까?<br>
+                        별로인듯
+                    </div>
+                </div>
+                <div class="extra content">
+                    채용률 : 5.4%<br>
+                    승 률 : 50.3%
+                </div>
+                <div class="ui bottom attached positive message">
+                    정답
+                </div>
+            </div>
+
+        </div>
+        <div class="ui four cards visible">
+
+            <div class="ui card visible">
+                <div class="image">
+                    <img src="https://assets.webn.mobi/hearthstone/dee8ba349d1417096c2ebf7777583de12558e96d8a082cfde55a3407e557e046.png">
+                </div>
+                <div class="content">
+                    <div class="header">고드프리 경</div>
+                    <div class="description">
+                        개사기
+                    </div>
+                </div>
+                <div class="extra content">
+                    채용률 : 51.1%<br>
+                    승 률 : 55.4%
+                </div>
+                <div class="ui bottom attached positive message">
+                    정답
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <h3 class="ui dividing header">
+        <a class="anchor" id="warrior"></a>
+        <img class="ui medium image" src="/hearthstone/images/warrior.png">
+        <span>전사</span>
+    </h3>
+    <p></p>
+
+    <div class="example">
+        <div class="ui four cards visible">
+            <div class="ui card visible">
+                <div class="image">
+                    <img src="https://assets.webn.mobi/hearthstone/3666c1c3e2b2595921721950a1cbe02e023df408d4c596d1e0d15dcc8710a73a.png">
+                </div>
+                <div class="content">
+                    <div class="header">나무꾼의 도끼</div>
+                    <div class="description">
+                        구데기
+                    </div>
+                </div>
+                <div class="extra content">
+                    채용률 : 19.0%<br>
+                    승 률 : 49.5%
+                </div>
+                <div class="ui bottom attached info message">
+                    애매
+                </div>
+            </div>
+
+            <div class="ui card visible">
+                <div class="image">
+                    <img src="https://assets.webn.mobi/hearthstone/6676e454fcf524d2f4faae549867975030b185b8ca0a46a8449792db185d462d.png">
+                </div>
+                <div class="content">
+                    <div class="header">출정의 길</div>
+                    <div class="description">
+                        난투가 있는데?<br>
+                        구데기
+                    </div>
+                </div>
+                <div class="extra content">
+                    채용률 : 30.4%<br>
+                    승 률 : 52.0%
+                </div>
+                <div class="ui bottom attached negative message">
+                    땡
+                </div>
+            </div>
+
+            <div class="ui card visible">
+                <div class="image">
+                    <img src="https://assets.webn.mobi/hearthstone/80453b132a09c8dc1f6328ba252a30c1ebefec42c09e73a94e474c092011684b.png">
+                </div>
+                <div class="content">
+                    <div class="header">붉은띠 말벌</div>
+                    <div class="description">
+                        어렸을 떄 말벌에 쏘인적이 있으므로<br>
+                        꾸데기
+                    </div>
+                </div>
+                <div class="extra content">
+                    채용률 : 17.0%<br>
+                    승 률 : 49.4%
+                </div>
+                <div class="ui bottom attached positive message">
+                    정답
+                </div>
+            </div>
+
+            <div class="ui card visible">
+                <div class="image">
+                    <img src="https://assets.webn.mobi/hearthstone/01fb3cde36716a8e0ac9e13321564ede25423b0ec68f5169936a2a44ddf866d3.png">
+                </div>
+                <div class="content">
+                    <div class="header">민병대 사령관</div>
+                    <div class="description">
+                        정리기로 나쁘지 않은 듯
+                    </div>
+                </div>
+                <div class="extra content">
+                    채용률 : 20.4%<br>
+                    승 률 : 49.6%
+                </div>
+                <div class="ui bottom attached positive message">
+                    정답
+                </div>
+            </div>
+
+        </div>
+        <div class="ui four cards visible">
+            <div class="ui card visible">
+                <div class="image">
+                    <img src="https://assets.webn.mobi/hearthstone/b21572b4e2ffebaf20a00cd5209891baea8166a5cfc8e1f6b96dc85ca5d099b1.png">
+                </div>
+                <div class="content">
+                    <div class="header">마을 포고꾼</div>
+                    <div class="description">
+                        너무 사기
+                    </div>
+                </div>
+                <div class="extra content">
+                    채용률 : 36.1%<br>
+                    승 률 : 50.8%
+                </div>
+                <div class="ui bottom attached positive message">
+                    정답
+                </div>
+            </div>
+
+            <div class="ui card visible">
+                <div class="image">
+                    <img src="https://assets.webn.mobi/hearthstone/180b3d6278e8dcd3dcfde8891e029398ec84062646877c8ca10050d640ded763.png">
+                </div>
+                <div class="content">
+                    <div class="header">치명적인 무기고</div>
+                    <div class="description">
+                        6코에 이걸?<br>
+                        개 꾸데기
+                    </div>
+                </div>
+                <div class="extra content">
+                    채용률 : 0.5%<br>
+                    승 률 : 42.3%
+                </div>
+                <div class="ui bottom attached positive message">
+                    정답
+                </div>
+            </div>
+
+            <div class="ui card visible">
+                <div class="image">
+                    <img src="https://assets.webn.mobi/hearthstone/6c30306ad1505787334bfd0b0742b78890ab68efb1a4cd71d7be245f57f12641.png">
+                </div>
+                <div class="content">
+                    <div class="header">다리우스 크롤리</div>
+                    <div class="description">
+                        다리우스? 롤 배꼈네.<br>
+                        성능은 좋다.
+                    </div>
+                </div>
+                <div class="extra content">
+                    채용률 : 43.8%<br>
+                    승 률 : 50.7%
+                </div>
+                <div class="ui bottom attached positive message">
+                    정답
+                </div>
+            </div>
+
+            <div class="ui card visible">
+                <div class="image">
+                    <img src="https://assets.webn.mobi/hearthstone/4f0b0eb17f334df3db64c4f9719f8f7cf2a01ac4374b751b57698142d5e9239f.png">
+                </div>
+                <div class="content">
+                    <div class="header">검은울음 포탑</div>
+                    <div class="description">
+                        응 개꾸데기
+                    </div>
+                </div>
+                <div class="extra content">
+                    채용률 : 5.4%<br>
+                    승 률 : 41.8%
+                </div>
+                <div class="ui bottom attached positive message">
+                    정답
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <h3 class="ui dividing header">
+        <a class="anchor" id="druid"></a>
+        <img class="ui medium image" src="/hearthstone/images/druid.png">
+        <span>드루이드</span>
+    </h3>
+    <p>굉장히 싫어하는 직업 드루이드. 비취 야생갔어요? 나이스</p>
+
+    <div class="example">
+        <div class="ui four cards visible">
+            <div class="ui card visible">
+                <div class="image">
+                    <img src="https://assets.webn.mobi/hearthstone/1341590178d40e6a29212445499ca20817f787e9fc499273750f00294ba5b670.png">
+                </div>
+                <div class="content">
+                    <div class="header">마녀숲 사과</div>
+                    <div class="description">
+                        별로인 듯
+                    </div>
+                </div>
+                <div class="extra content">
+                    채용률 : 4.3%<br>
+                    승 률 : 45.7%
+                </div>
+                <div class="ui bottom attached positive message">
+                    정답
+                </div>
+            </div>
+
+            <div class="ui card visible">
+                <div class="image">
+                    <img src="https://assets.webn.mobi/hearthstone/87981023c86e8975c8480b06096fe1ea2773205089e19a1a95c06834d08508f0.png">
+                </div>
+                <div class="content">
+                    <div class="header">마녀의 시간</div>
+                    <div class="description">
+                        야수 드루이드가 있어요?<br>
+                        잘 모르겄어요.
+                    </div>
+                </div>
+                <div class="extra content">
+                    채용률 : 33.6%<br>
+                    승 률 : 50.7%
+                </div>
+                <div class="ui bottom attached negative message">
+                    땡
+                </div>
+            </div>
+
+            <div class="ui card visible">
+                <div class="image">
+                    <img src="https://assets.webn.mobi/hearthstone/c31a541ca5c138bac02197e037540445500bc899fe98588a39685cfaea73150c.png">
+                </div>
+                <div class="content">
+                    <div class="header">숲 속의 안내자</div>
+                    <div class="description">
+                        왜 만든거지???<br>
+                        완전 꾸데기
+                    </div>
+                </div>
+                <div class="extra content">
+                    채용률 : 0.7%<br>
+                    승 률 : 42.5%
+                </div>
+                <div class="ui bottom attached positive message">
+                    정답
+                </div>
+            </div>
+
+            <div class="ui card visible">
+                <div class="image">
+                    <img src="https://assets.webn.mobi/hearthstone/739cbab392fdb91b9a3cf50395134f806673dcb59bc45ee447b6cc720123afba.png">
+                </div>
+                <div class="content">
+                    <div class="header">속삭이는 숲</div>
+                    <div class="description">
+                        넘모 꾸졌고.
+                    </div>
+                </div>
+                <div class="extra content">
+                    채용률 : 5.4%<br>
+                    승 률 : 48.9%
+                </div>
+                <div class="ui bottom attached positive message">
+                    정답
+                </div>
+            </div>
+
+        </div>
+        <div class="ui four cards visible">
+            <div class="ui card visible">
+                <div class="image">
+                    <img src="https://assets.webn.mobi/hearthstone/1326f5c19fec65e781fa3df2a9cb9610cab07946e16e353d9497cbc43b427782.png">
+                </div>
+                <div class="content">
+                    <div class="header">어스름 수사슴</div>
+                    <div class="description">
+                        사슴이 너무 징그러워<br>
+                        홀수덱이 가능해? 꾸짐.
+                    </div>
+                </div>
+                <div class="extra content">
+                    채용률 : 0.9%<br>
+                    승 률 : 43.8%
+                </div>
+                <div class="ui bottom attached positive message">
+                    정답
+                </div>
+            </div>
+
+            <div class="ui card visible">
+                <div class="image">
+                    <img src="https://assets.webn.mobi/hearthstone/1d9c2c58e94cb4d0004c05ba696371ce38bc29afab3e3b9a9db8ed009866d7cf.png">
+                </div>
+                <div class="content">
+                    <div class="header">황혼 녘의 아비아나</div>
+                    <div class="description">
+                        옷 입었나? 옷 안입었으면 갓갓카드<br>
+                        상대가 너무 좋은거 아니야?<br>
+                        꾸데기
+                    </div>
+                </div>
+                <div class="extra content">
+                    채용률 : 0%<br>
+                    채용률 0% 실화??
+                </div>
+                <div class="ui bottom attached positive message">
+                    정답
+                </div>
+            </div>
+
+            <div class="ui card visible">
+                <div class="image">
+                    <img src="https://assets.webn.mobi/hearthstone/f8ef61e286a2002c51c6cca2e0fcbedebe7cb5736308dbe5d18fe61e4ab8ae21.png">
+                </div>
+                <div class="content">
+                    <div class="header">뾰족가지</div>
+                    <div class="description">
+                        엄청 좋은 건 아니지만<br>
+                        좋은 것 같은데?
+                    </div>
+                </div>
+                <div class="extra content">
+                    채용률 : 1.2%<br>
+                    승 률 : 47.7%
+                </div>
+                <div class="ui bottom attached negative message">
+                    땡
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <h3 class="ui dividing header">
+        <a class="anchor" id="shaman"></a>
+        <img class="ui medium image" src="/hearthstone/images/shaman.png">
+        <span>주술사</span>
+    </h3>
+    <p>초승달의 1픽 도적</p>
+
+    <div class="example">
+        <div class="ui four cards visible">
+            <div class="ui card visible">
+                <div class="image">
+                    <img src="https://assets.webn.mobi/hearthstone/88603df1d11e819e135949bc4314b3429e49ea6089e4046c8b8415136945780e.png">
+                </div>
+                <div class="content">
+                    <div class="header">마녀의 수습생</div>
+                    <div class="description">
+                        주술사 주문이 머가 있지?<br>
+                        별로인듯
+                    </div>
+                </div>
+                <div class="extra content">
+                    채용률 : 6.0%<br>
+                    승 률 : 41.8%
+                </div>
+                <div class="ui bottom attached positive message">
+                    정답
+                </div>
+            </div>
+
+            <div class="ui card visible">
+                <div class="image">
+                    <img src="https://assets.webn.mobi/hearthstone/a4dad44a30f844f2e47eebe3b6bfbeb13fd4899ff46bf0bc6908ff4022983553.png">
+                </div>
+                <div class="content">
+                    <div class="header">수렁불꽃 뱀장어</div>
+                    <div class="description">
+                        짝수덱 별로야<br>
+                        얘도 별로야.
+                    </div>
+                </div>
+                <div class="extra content">
+                    채용률 : 6.1%<br>
+                    승 률 : 53.9%
+                </div>
+                <div class="ui bottom attached positive message">
+                    정답
+                </div>
+            </div>
+
+            <div class="ui card visible">
+                <div class="image">
+                    <img src="https://assets.webn.mobi/hearthstone/a339950f99b25b497b47d30ff87765910a89a489c929638d284f405bcf29cda3.png">
+                </div>
+                <div class="content">
+                    <div class="header">수렁주인</div>
+                    <div class="description">
+                        7코만 아니었다면...<br>
+                        너무 비싸서 별로...
+                    </div>
+                </div>
+                <div class="extra content">
+                    채용률 : 3.2%<br>
+                    승 률 : 41.2%
+                </div>
+                <div class="ui bottom attached positive message">
+                    정답
+                </div>
+            </div>
+
+            <div class="ui card visible">
+                <div class="image">
+                    <img src="https://assets.webn.mobi/hearthstone/e61f7f45ccfebea41b09e706e2b00d89b2173a73a5cfa32228d2c2f4eadf9aca.png">
+                </div>
+                <div class="content">
+                    <div class="header">마녀 하기사</div>
+                    <div class="description">
+                        나쁘지 않은 것 같기도 하고..<br>
+                        쓸만 한듯.
+                    </div>
+                </div>
+                <div class="extra content">
+                    채용률 : 29.6%<br>
+                    승 률 : 47.4%
+                </div>
+                <div class="ui bottom attached positive message">
+                    정답
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
 
 </body>
 </html>
